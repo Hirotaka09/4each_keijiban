@@ -1,0 +1,86 @@
+@charset "utf-8";
+header{
+    width: 100%;
+}
+.header_logo {
+    width: 250px;
+    padding-left: 10px;
+}
+.header_container{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+.header_container li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 40px; 
+}
+main .left{
+    float: left;
+    width: 70%;
+}
+.left h2{
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+}
+.left form{
+    width: 100%;
+}
+.form_container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb;
+}
+.form_container h3{
+    border-left: 4px solid red;
+}
+form div{
+    padding: 15px;
+}
+form .submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 2px darkgray;
+}
+
+.kiji{
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb;
+}
+.kiji h3{
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+main .right{
+    float: left;
+    width: 25%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.right h3{
+border-bottom: 2px dotted black;
+
+}
+.right li{
+    list-style-type: none;
+    padding-bottom:10px;
+}
+footer{
+    clear: left;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px; 
+}
